@@ -1,0 +1,9 @@
+services:
+  experiment:
+    build:
+      context: .
+    network_mode: none
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: ["python", "experiment.py"]
