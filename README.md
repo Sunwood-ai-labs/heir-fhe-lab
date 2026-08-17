@@ -70,6 +70,25 @@ docker compose run --rm --entrypoint python experiment toy_experiment.py
 - `experiment.py`: 暗号化された取引特徴量の不正検知スコア実験
 - `toy_experiment.py`: 2入力の算術回路を使ったベースライン
 
+## スライド
+
+実験の流れを説明する5枚のPNGスライドを `slides/out/` に収録しています。
+
+- [`01.png`](./slides/out/01.png): なぜFHEが必要か
+- [`02.png`](./slides/out/02.png): 平文推論とFHEの違い
+- [`03.png`](./slides/out/03.png): クライアント／外部モデル／復号の流れ
+- [`04.png`](./slides/out/04.png): 暗号化推論モデルの中身
+- [`05.png`](./slides/out/05.png): 確認できたことと残課題
+
+再生成する場合は、Windows PowerShellで次を実行します。
+
+```powershell
+$env:NODE_PATH = 'D:\Prj\render-svg-layouts-skill\node_modules'
+node .\slides\build_fhe_slides.js
+```
+
+スライドはApple HIG準拠をうたうものではなく、階層・簡潔さ・視認性を重視したApple-inspiredの資料デザインです。
+
 次の段階では、固定小数点、複数回のリクエストをまたぐ鍵管理、実ネットワーク越しのクライアント／サービス分離、暗号化推論モデルなどを検討できます。
 
 ## 参照

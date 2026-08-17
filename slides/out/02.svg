@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#0B1B2B"/></linearGradient>
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#45D7FF" stop-opacity="0.35"/><stop offset="1" stop-color="#91F6D2" stop-opacity="0.04"/></linearGradient>
+    <linearGradient id="coralGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B78" stop-opacity="0.28"/><stop offset="1" stop-color="#FF8B78" stop-opacity="0.02"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="32"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.13" stroke="#294A67" stroke-width="1"><path d="M0 0V900"/><path d="M80 0V900"/><path d="M160 0V900"/><path d="M240 0V900"/><path d="M320 0V900"/><path d="M400 0V900"/><path d="M480 0V900"/><path d="M560 0V900"/><path d="M640 0V900"/><path d="M720 0V900"/><path d="M800 0V900"/><path d="M880 0V900"/><path d="M960 0V900"/><path d="M1040 0V900"/><path d="M1120 0V900"/><path d="M1200 0V900"/><path d="M1280 0V900"/><path d="M1360 0V900"/><path d="M1440 0V900"/><path d="M1520 0V900"/><path d="M1600 0V900"/><path d="M0 0H1600"/><path d="M0 80H1600"/><path d="M0 160H1600"/><path d="M0 240H1600"/><path d="M0 320H1600"/><path d="M0 400H1600"/><path d="M0 480H1600"/><path d="M0 560H1600"/><path d="M0 640H1600"/><path d="M0 720H1600"/><path d="M0 800H1600"/><path d="M0 880H1600"/></g>
+  <circle cx="1450" cy="50" r="280" fill="#45D7FF" opacity="0.08" filter="url(#soft)"/>
+  <circle cx="100" cy="860" r="240" fill="#FF8B78" opacity="0.06" filter="url(#soft)"/>
+  <text x="96" y="58" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="18" font-weight="800" text-anchor="start" opacity="1" letter-spacing="2.5" dominant-baseline="alphabetic">HEIR  ×  OpenFHE</text>
+  <text x="1504" y="58" fill="#9FB1C4" font-family="Cascadia Mono, Consolas, monospace" font-size="18" font-weight="700" text-anchor="end" opacity="1" letter-spacing="1.5" dominant-baseline="alphabetic">02 / 05</text>
+  <text x="96" y="112" fill="#45D7FF" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="16" font-weight="800" text-anchor="start" opacity="1" letter-spacing="2.2" dominant-baseline="alphabetic">THE PROBLEM</text>
+
+    <text x="96" y="190" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="54" font-weight="800" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">普通のクラウド推論では、</text>
+    <text x="96" y="256" fill="#FF8B78" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="54" font-weight="800" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">機密データが見えてしまう。</text>
+    <rect x="96" y="338" width="650" height="392" rx="30" fill="#0F2236" filter="url(#shadow)"/>
+    <rect x="132" y="372" width="236" height="38" rx="19" fill="#FF8B78" /><text x="250" y="392" fill="#06101D" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="16" font-weight="800" text-anchor="middle" opacity="1" letter-spacing="0.4" dominant-baseline="middle">BEFORE / PLAINTEXT</text>
+    <text x="132" y="438" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="25" font-weight="750" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">決済プラットフォーム</text>
+    <line x1="330" y1="478" x2="510" y2="478" stroke="#FF8B78" stroke-width="5" stroke-linecap="round"/><path d="M 498 472 L 510 478 L 498 484" fill="none" stroke="#FF8B78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(560 436) scale(1.05)" fill="none" stroke="#FF8B78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="4" width="92" height="34" rx="8" fill="#122A42"/>
+    <rect x="4" y="48" width="92" height="34" rx="8" fill="#122A42"/>
+    <circle cx="20" cy="21" r="3" fill="#FF8B78" stroke="none"/><circle cx="20" cy="65" r="3" fill="#FF8B78" stroke="none"/>
+    <path d="M34 21h42M34 65h42"/>
+  </g>
+    <text x="630" y="560" fill="#FF8B78" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="20" font-weight="700" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">外部サービスから</text>
+    <text x="630" y="594" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">明細が見える</text>
+    <g transform="translate(532 612) scale(0.75)" fill="none" stroke="#FF8B78" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 50s18-28 46-28 46 28 46 28-18 28-46 28S4 50 4 50Z"/>
+    <circle cx="50" cy="50" r="12"/>
+    <path d="M12 12l76 76"/>
+  </g>
+    <text x="132" y="660" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="19" font-weight="550" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">金額 / 回数 / 位置 / 端末 / 加盟店</text>
+    <rect x="854" y="338" width="650" height="392" rx="30" fill="#0F2236" filter="url(#shadow)"/>
+    <rect x="890" y="372" width="164" height="38" rx="19" fill="#45D7FF" /><text x="972" y="392" fill="#06101D" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="16" font-weight="800" text-anchor="middle" opacity="1" letter-spacing="0.4" dominant-baseline="middle">AFTER / FHE</text>
+    <text x="890" y="438" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="25" font-weight="750" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">決済プラットフォーム</text>
+    <g transform="translate(1090 426) scale(0.8)" fill="none" stroke="#45D7FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 44V28C22 12 34 2 50 2s28 10 28 26v16"/>
+    <rect x="8" y="42" width="84" height="64" rx="14" fill="#122A42"/>
+    <circle cx="50" cy="72" r="7" fill="#45D7FF" stroke="none"/>
+    <path d="M50 79v14"/>
+  </g>
+    <line x1="1195" y1="478" x2="1324" y2="478" stroke="#45D7FF" stroke-width="5" stroke-linecap="round"/><path d="M 1312 472 L 1324 478 L 1312 484" fill="none" stroke="#45D7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(1360 436) scale(1.05)" fill="none" stroke="#91F6D2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="4" width="92" height="34" rx="8" fill="#122A42"/>
+    <rect x="4" y="48" width="92" height="34" rx="8" fill="#122A42"/>
+    <circle cx="20" cy="21" r="3" fill="#91F6D2" stroke="none"/><circle cx="20" cy="65" r="3" fill="#91F6D2" stroke="none"/>
+    <path d="M34 21h42M34 65h42"/>
+  </g>
+    <text x="1178" y="560" fill="#91F6D2" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="20" font-weight="700" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">外部サービスが見るのは</text>
+    <text x="1178" y="594" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">暗号文だけ</text>
+    <text x="890" y="660" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="19" font-weight="550" text-anchor="start" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">計算結果を返す。復号と判断は手元で行う。</text>
+    <line x1="746" y1="370" x2="746" y2="698" stroke="#294A67" stroke-width="2" stroke-dasharray="6 12"/>
+    <text x="800" y="792" fill="#F5F8FC" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="21" font-weight="700" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">FHE = Fully Homomorphic Encryption</text>
+    <text x="800" y="824" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="19" font-weight="500" text-anchor="middle" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">暗号文のまま、足し算・掛け算・推論を行う。</text>
+
+  <line x1="96" y1="846" x2="1504" y2="846" stroke="#294A67" stroke-width="1" />
+  <text x="96" y="875" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="start" opacity="1" letter-spacing="1.5" dominant-baseline="alphabetic">CONFIDENTIAL INFERENCE / DOCKER COMPOSE EXPERIMENT</text>
+  <text x="1504" y="875" fill="#9FB1C4" font-family="Noto Sans JP, Meiryo, Yu Gothic, Segoe UI, sans-serif" font-size="14" font-weight="600" text-anchor="end" opacity="1" letter-spacing="0" dominant-baseline="alphabetic">Apple-inspired · 2026</text>
+  </svg>
